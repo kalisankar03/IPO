@@ -103,7 +103,7 @@ import { useNavigate } from "react-router-dom";
 import { FaGoogle } from "react-icons/fa";
 import { UserContext } from "../../context/UserContext";
 
-backend_url = "https://ipo-wusa.onrender.com";
+backend_url = https://ipo-1-k9vz.onrender.com;
 
 export default function RegisterPage() {
   const [form, setForm] = useState({ name: "", email: "", password: "" });
