@@ -143,13 +143,7 @@ function Index() {
   const handleSignInClick = () => {
     setShowSignInModal(true);
   };
-
-  // Handle sign in click
-  const handleSignInClick = () => {
-    setShowSignInModal(true);
-  };
-  // Handle explore IPOs click
->>>>>>> user2-work
+  
   const handleExploreClick = () => {
     document.getElementById("ipo-section").scrollIntoView({
       behavior: "smooth",
