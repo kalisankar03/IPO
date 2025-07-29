@@ -2,8 +2,9 @@ import { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { FaGoogle } from "react-icons/fa";
 import { UserContext } from "../../context/UserContext";
-const backendUrl = import.meta.env.VITE_BACKEND_URL;
-backend_url = "https://ipo-1-k9vz.onrender.com";
+
+const backend_url = "https://ipo-1-k9vz.onrender.com";
+
 
 export default function RegisterPage() {
   const [form, setForm] = useState({ name: "", email: "", password: "" });
