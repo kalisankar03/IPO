@@ -2,8 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { FaGoogle } from "react-icons/fa";
 import axios from "axios";
-const backendUrl = import.meta.env.VITE_BACKEND_URL;
-backend_url = "https://ipo-1-k9vz.onrender.com";
+const backend_url = "https://ipo-1-k9vz.onrender.com";
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
