@@ -21,10 +21,7 @@ import { Lock } from "lucide-react";
 import { UserContext } from "../context/UserContext";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-<<<<<<< HEAD
-=======
 
->>>>>>> user2-work
 function Index() {
   const [showSignInModal, setShowSignInModal] = useState(false);
   const [watchlist, setWatchlist] = useState([]);
