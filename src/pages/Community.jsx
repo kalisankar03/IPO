@@ -1,5 +1,4 @@
 import React from "react";
-
 const Community = () => {
   return (
     <div className="bg-white min-h-screen px-6 py-10 text-black">
