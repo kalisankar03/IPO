@@ -85,8 +85,6 @@ function Index() {
       logo: "https://cdn-icons-png.flaticon.com/512/825/825519.png",
     },
   ];
-<<<<<<< HEAD
-=======
 
   // Helper: Add IPO to localStorage watchlist (full object, no duplicates)
   const addToLocalStorageWatchlist = (ipo) => {
@@ -118,7 +116,7 @@ function Index() {
   };
 
   // Filter IPOs based on selected filter
->>>>>>> user2-work
+
   const filteredIPOs =
     selectedFilter === "all"
       ? allIPOs.slice(0, 3)
@@ -127,10 +125,8 @@ function Index() {
             ipo.sector.toLowerCase().includes(selectedFilter.toLowerCase()),
           )
           .slice(0, 3);
-<<<<<<< HEAD
-=======
-  // Handle adding to watchlist
->>>>>>> user2-work
+
+ 
   const handleAddToWatchlist = (ipoId) => {
     if (!watchlist.includes(ipoId)) {
       setWatchlist([...watchlist, ipoId]);
@@ -143,11 +139,11 @@ function Index() {
       setTimeout(() => setShowSuccess(false), 2000);
     }
   };
-<<<<<<< HEAD
+
   const handleSignInClick = () => {
     setShowSignInModal(true);
   };
-=======
+
   // Handle sign in click
   const handleSignInClick = () => {
     setShowSignInModal(true);
