@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { FaGoogle } from "react-icons/fa";
 import { UserContext } from "../../context/UserContext";
 
-const backend_url = "https://ipo-1-k9vz.onrender.com";
+const backend_url = "https://ipo-1-k9vz.onrender.com"; // or whatever the backend URL is
 
 
 export default function RegisterPage() {
